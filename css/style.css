@@ -1,7 +1,7 @@
 body {
     font-family: Arial, Verdana;
     background-color: #000;
-    color: #fff; 
+    color: #fff;
     margin: 20px 20px 0 20px;
 }
 
@@ -13,7 +13,7 @@ h1 {
 
 h2 {
     font-size: 30px;
-    color: #0D0D0D; 
+    color: #0D0D0D;
 }
 
 p {
@@ -24,7 +24,7 @@ p {
 
 img {
     width: 250px;
-    border-style: dashed; 
+    border-style: dashed;
     border-width: 10px;
     border-color: #fff;
     margin: auto;
@@ -34,7 +34,7 @@ img {
 div {
     min-height: 125px;
     padding: 20px;
-    border: 3px solid #fff; 
+    border: 3px solid #fff;
 }
 
 .introduction {
@@ -48,7 +48,7 @@ div {
     text-align: right;
     margin-left: 50px;
     border-left: 5px solid;
-    border-bottom: 2px solid; 
+    border-bottom: 2px solid;
     border-right: none;
     border-top: none;
     border-color: #fff;
@@ -59,15 +59,15 @@ div {
     text-align: left;
     margin-right: 50px;
     border-left: none;
-    border-bottom: none; 
+    border-bottom: none;
     border-right: 5px solid;
     border-top: 2px solid;
-    color: #C4C4C4; 
+    color: #C4C4C4;
     border-color: #fff;
 }
 
 .blue h2 {
-    color: #C4C4C4; 
+    color: #C4C4C4;
 }
 
 .yellow {
@@ -75,11 +75,14 @@ div {
     text-align: right;
     margin-left: 50px;
     border-left: 5px solid;
-    border-bottom: 2px solid; 
+    border-bottom: 2px solid;
     border-right: none;
     border-top: none;
-    color: #000;
     border-color: #fff;
+}
+
+.yellow p {
+    color: #6E6E6E;
 }
 
 .green {
@@ -87,7 +90,7 @@ div {
     text-align: left;
     margin-right: 50px;
     border-left: none;
-    border-bottom: none; 
+    border-bottom: none;
     border-right: 5px solid;
     border-top: 2px solid;
     border-color: #fff;
@@ -95,8 +98,8 @@ div {
 
 footer {
     border: 5px solid #fff;
-    background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,255,1) 25%, rgba(0,102,255,1) 75%, rgba(0,0,0,1) 100%);
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 255, 1) 25%, rgba(0, 102, 255, 1) 75%, rgba(0, 0, 0, 1) 100%);
 }
 
 footer p {
